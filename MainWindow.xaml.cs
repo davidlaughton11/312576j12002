@@ -51,7 +51,7 @@ namespace _312576j12002
             else if (digit == 1)
             {
                 lblOutput.Content =
-                "         *"
+                 " "   + Environment.NewLine +  "         *"
                  + Environment.NewLine + "         *"
                  + Environment.NewLine + "         *"
                 + Environment.NewLine + "      "
@@ -83,8 +83,8 @@ namespace _312576j12002
             }
             else if (digit == 4)
             {
-                lblOutput.Content =
-                 "*        *"
+                lblOutput.Content = " "
+                  + Environment.NewLine +     "*        *"
                   + Environment.NewLine + "*        *"
                    + Environment.NewLine + "*        *"
                    + Environment.NewLine + " *  *  * "
@@ -148,7 +148,8 @@ namespace _312576j12002
                 + Environment.NewLine + " *  *  * "
                 + Environment.NewLine + "         *"
                  + Environment.NewLine + "         *"
-                  + Environment.NewLine + "         *";
+                  + Environment.NewLine + "         *"
+                  + Environment.NewLine + "  *  *  * ";
             }
         }
 
